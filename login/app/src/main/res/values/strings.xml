@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="loginbutton">login</string>
+    <string name="not_registered">NOT REGISTERED?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="already_registered">already registered?</string>
+    <string name="login">login</string>
+    <string name="register_button">register</string>
+    <string name="roll_no">roll no:</string>
+    <string name="batch">batch</string>
+    <string name="branch">branch</string>
+    <string name="next">next</string>
+    <string name="loginerror">LOGIN ERROR</string>
+    <string name="login_as_cr_teacher">login as cr/teacher</string>
+    <string name="send">SEND</string>
+    <string name="group">group</string>
+    <string name="enter_message">enter message</string>
+    <string name="interests">INTERESTS</string>
+    <string name="ieee">IEEE</string>
+    <string name="sports">SPORTS</string>
+    <string name="dance">DANCE</string>
+    <string name="music">MUSIC</string>
+    <string name="acm_nitk">ACM NITK</string>
+    <string name="rotract_nitk">ROTRACT NITK</string>
+    <string name="iste">ISTE</string>
+    <string name="acm">ACM</string>
+    <string name="register2">Register</string>
+    <string name="title_activity_homepagecr">homepagecr</string>
+
+    <string-array name="branches">
+        <item>IT</item>
+        <item>CS</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>MECH</item>
+    </string-array>
+    <string-array name="batchs">
+        <item>Batch of 2019</item>
+        <item>Batch of 2020</item>
+        <item>Batch of 2021</item>
+        <item>Batch of 2022</item>
+    </string-array>
+    <string-array name="clubs">
+        <item>NONE</item>
+        <item>IEEE</item>
+        <item>ISTE</item>
+        <item>ACM</item>
+        <item>ROTRACT</item>
+        <item>IE</item>
+    </string-array>
+    <string-array name="sports">
+        <item>NONE</item>
+        <item>BASKETBALL</item>
+        <item>FOOTBALL</item>
+        <item>CRICKET</item>
+        <item>VOLLEYBALL</item>
+        <item>THROWBALL</item>
+    </string-array>
+</resources>

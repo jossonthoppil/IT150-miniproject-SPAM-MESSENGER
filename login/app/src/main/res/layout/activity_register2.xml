@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="SPAM MESSENGER"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/edittext_rollno"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:hint="ROLL NUMBER"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SELECT YOUR BRANCH:"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/branchspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textView3432"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT YOUR BATCH:"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+    <Spinner
+        android:id="@+id/batchspinner"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="NEXT"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:text="ALREADY REGISTERED? "/>
+        <TextView
+            android:id="@+id/textview_login"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:text="LOGIN"/>
+
+    </LinearLayout>
+</LinearLayout>

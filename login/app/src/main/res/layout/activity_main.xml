@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="SPAM MESSENGER"
+        android:textSize="30sp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="311dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/nitklogo" />
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/username"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN AS STUDENT"
+        />
+    <Button
+    android:id="@+id/button_loginascr"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:text="LOGIN AS MESSAGE BROADCASTER"
+    />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="35dp"
+         android:text="@string/not_registered"/>
+     <TextView
+            android:id="@+id/textview_register"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/register"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
